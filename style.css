@@ -1,0 +1,28 @@
+body {
+    background: #001;
+    color: #fff;
+}
+
+.wrapper {
+    width: calc(100% - 300px);
+    height: 50px;
+    background: #333;
+    position: relative;
+    padding: 15px;
+}
+
+#orig {
+    width: 50%;
+    background: #234;
+    float: left;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+#trans {
+    width: 50%;
+    background: #432;
+    float: left;
+    position: relative;
+    /* overflow: hidden; */
+}
